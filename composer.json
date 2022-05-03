@@ -1,0 +1,24 @@
+{
+  "name": "highjin/job-monitor",
+  "autoload": {
+    "psr-4": {
+      "Highjin\\JobMonitor\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "vladislav highjin",
+      "email": "v.novikov@napopravku.ru"
+    }
+  ],
+  "require": {
+    "napopravku/events": "dev-master"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Highjin\\JobMonitor\\Laravel\\JobMonitorServiceProvider"
+      ]
+    }
+  }
+}
