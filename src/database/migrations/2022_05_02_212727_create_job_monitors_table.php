@@ -16,7 +16,7 @@ return new class extends Migration {
             Schema::create('job_monitors', function (Blueprint $table) {
                 $table->id();
                 $table->string('status')->nullable();
-                $table->json('job_data')->nullable();
+                $table->json('mock_data')->nullable();
                 $table->timestamps();
             });
         }
