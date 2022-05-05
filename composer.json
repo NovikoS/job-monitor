@@ -5,6 +5,12 @@
       "Highjin\\JobMonitor\\": "src/"
     }
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/napopravku/events"
+    }
+  ],
   "authors": [
     {
       "name": "vladislav highjin",
@@ -12,7 +18,8 @@
     }
   ],
   "require": {
-    "napopravku/events": "dev-master"
+    "napopravku/events": "dev-master",
+    "nesbot/carbon": "^2.58"
   },
   "extra": {
     "laravel": {
