@@ -13,12 +13,5 @@
   ],
   "require": {
     "napopravku/events": "dev-master"
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Highjin\\JobMonitor\\Laravel\\JobMonitorServiceProvider"
-      ]
-    }
   }
 }
