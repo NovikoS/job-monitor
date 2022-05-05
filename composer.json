@@ -19,7 +19,7 @@
   ],
   "require": {
     "napopravku/events": "dev-master",
-    "nesbot/carbon": "^2.58"
+    "nesbot/carbon": "^2.0.0"
   },
   "extra": {
     "laravel": {
